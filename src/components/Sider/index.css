@@ -1,0 +1,9 @@
+.siderContainer__head {
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+}
+.siderContainer__title {
+    font-size: 24px;
+    color: #fff;
+}

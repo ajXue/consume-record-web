@@ -1,0 +1,21 @@
+@import "./color.scss";
+
+/* 清除浮动 */
+.clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+
+.cs-left {
+  float: left;
+}
+
+.cs-right {
+  float: right;
+}

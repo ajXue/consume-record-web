@@ -1,0 +1,21 @@
+.dashboard__header{
+    background: #fff;
+    padding: 30px 20px 20px;
+}
+.dashboard__header__welcom {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dashboard__header__img {
+    margin-right: 26px;
+}
+.dashboard__header__pTop {
+    font-size: 20px;
+    color: rgba(0, 0, 0, .8);
+}
+.dashboard__header__pBot {
+    font-size: 14px;
+    color: rgba(0, 0, 0, .4);
+}

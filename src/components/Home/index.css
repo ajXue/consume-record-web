@@ -1,0 +1,12 @@
+.homeContainer {
+    height: 100%;
+    /* height: calc( 100% - 45px); */
+    /* margin: 15px; */
+    /* background: #ecf0f4; */
+    /* padding: 15px; */
+}
+
+.homeContent {
+    height: 100%;
+    background: #fff;
+}

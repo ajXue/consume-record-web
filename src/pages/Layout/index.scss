@@ -1,0 +1,21 @@
+$greyBg: rgb(240, 242, 245);
+
+.containerAll {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.leftContainer {
+    float: left;
+    height: 100%;
+    background: #001529;
+}
+.rightContainer {
+    float: left;
+    height: 100%;
+    background: $greyBg;
+}
