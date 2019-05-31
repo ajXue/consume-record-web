@@ -6,6 +6,7 @@ import Login from "../pages/Login"
 import Layout from '../pages/Layout'
 import Dashboard from '../pages/Dashboard'
 import phonelist from '../pages/taskCenter/phonelist'
+import UserManage from '../pages/SystemManage/UserManage'
 import NoMatch from '../pages/noMatch'
 
 class Router extends Component {
@@ -19,6 +20,7 @@ class Router extends Component {
                              <Switch>
                                 <Route path="/admin/dashboard" component={Dashboard}></Route>
                                 <Route path="/admin/taskCenter/phonelist" component={phonelist}></Route>
+                                <Route path="/admin/system/userManage" component={UserManage}></Route>
                                 <Route component={NoMatch}></Route>
                              </Switch>
                         </Layout>

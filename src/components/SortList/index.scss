@@ -1,0 +1,28 @@
+.sortList_li {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    .sortList_li__index {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin-right: 16px;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 20px;
+        text-align: center;
+        border-radius: 50%;
+    }
+    .sortList_li_indexFilterTrue{
+        color: #fff;
+        background-color: #314659;
+    }
+    .sortList_li_indexFilterFalse{
+        // color: #fff;
+        background-color: #f5f5f5;
+    }
+    .sortList_li__textName {
+        flex: 1 1;
+        margin-right: 8px;
+    }
+}

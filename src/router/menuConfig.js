@@ -39,17 +39,17 @@ export default [
         icon: "setting",
         children: [
             {
+                title: "用户管理",
+                key: "/admin/system/userManage"
+            },
+            {
                 title: "菜单管理",
                 key: "/admin/system/menuManage"
             },
             {
                 title: "权限管理",
                 key: "/admin/system/authManage"
-            },
-            {
-                title: "用户管理",
-                key: "/admin/system/userManage"
-            },
+            }
         ]
     },
 ]
